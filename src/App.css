@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.navbar {
+  flex-shrink: 0;
+}
+
+.scroll-container {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+[data-scroll-container] {
+  overflow: hidden;
+}
+
+section {
+  min-height: 100vh;
+}
